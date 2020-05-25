@@ -1,6 +1,6 @@
 export default class WidthSizeElement extends HTMLElement {
   constructor() {
-    super();
+    super()
     const
       shadowRoot = this.attachShadow({mode: 'open'}),
       size = window.outerWidth
